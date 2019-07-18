@@ -1,0 +1,2 @@
+# explore-jhipster
+Explore JHipster
