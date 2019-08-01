@@ -1,0 +1,11 @@
+version: '2'
+services:
+  microservuaa-postgresql:
+    image: postgres:11.3
+    # volumes:
+    #     - ~/volumes/jhipster/microservUaa/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=microservUaa
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

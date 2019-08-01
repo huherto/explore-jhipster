@@ -1,0 +1,11 @@
+version: '2'
+services:
+  microserv-postgresql:
+    image: postgres:11.3
+    # volumes:
+    #     - ~/volumes/jhipster/microserv/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=microserv
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

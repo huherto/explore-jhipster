@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.huherto"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "io.github.huherto",
+    "packageFolder": "io/github/huherto",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MjM5YjUwYzhjZGRiNzU1NGI5MzFhMjlkMmUxMzg1YTYwOWJjNzc2M2E2ZjJiYzA1MjczOTZhMGU4YzRhMjAzMmVmNTM1NTU4OGUxMjVhY2FjZTYzZTdjN2RjOWUxMmE0MTEzYjMxNzZkMTZjYjljZjY4MWZiNTQ1ZTg1MzlmNzE=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
