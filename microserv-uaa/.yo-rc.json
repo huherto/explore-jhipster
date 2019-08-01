@@ -3,7 +3,7 @@
     "promptValues": {
       "packageName": "io.github.huherto"
     },
-    "jhipsterVersion": "6.1.2",
+    "jhipsterVersion": "6.2.0",
     "applicationType": "microservice",
     "baseName": "microservUaa",
     "packageName": "io.github.huherto",
@@ -34,6 +34,7 @@
     "enableTranslation": false,
     "clientPackageManager": "npm",
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "blueprints": []
   }
 }

@@ -119,7 +119,6 @@ jhipster:
       client-id: internal
       client-secret: internal
   mail: # specific JHipster mail property, for standard properties see MailProperties
-    from: microservUaa@localhost
     base-url: http://127.0.0.1:8082
   metrics:
     logs: # Reports metrics in the logs
